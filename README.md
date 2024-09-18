@@ -41,3 +41,15 @@ This project is a server-side application designed for an online book retailer, 
 
 ### Delete Review
 ![Delete Review](9-deletereview.png)
+
+###  Get all books – Using async callback function
+![Get all books – Using async callback function](task10.png)
+
+### Search by ISBN – Using Promises
+![Search by ISBN – Using Promises](task11.png)
+
+### Search by Author
+![Search by Author](task12.png)
+
+### Search by Title
+![Search by Title](task13.png)
