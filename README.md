@@ -19,7 +19,7 @@ This project is a server-side application designed for an online book retailer, 
 ![List of All Books](1-getallbooks.png)
 
 ### Get Books by Title
-![Get Books by Title](13-getbooksbytitle.png)
+![Get Books by Title](4-getbooksbytitle.png)
 
 ### Get Details by ISBN
 ![Get Details by ISBN](2-gedetailsISBN.png)
