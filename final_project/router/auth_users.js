@@ -59,18 +59,18 @@ regd_users.post("/login", (req, res) => {
   }
 });
 
-regd_users.put("/auth/review/:isbn", (req, res) => {
-  const isbn = req.params.isbn;
-  const newReview = req.query.reviews;
-  const username = req.session.authorization.username;
-  if (books[isbn].reviews[username]) {
-    books[isbn].reviews[username] = newReview;
-    res.send("Review updated");
-  } else {
-    books[isbn].reviews = newReview;
-    res.send("user review added");
-  }
-});
+// regd_users.put("/auth/review/:isbn", (req, res) => {
+//   const isbn = req.params.isbn;
+//   const newReview = req.query.reviews;
+//   const username = req.session.authorization.username;
+//   if (books[isbn].reviews[username]) {
+//     books[isbn].reviews[username] = newReview;
+//     res.send("Review updated");
+//   } else {
+//     books[isbn].reviews = newReview;
+//     res.send("user review added");
+//   }
+// });
 // regd_users.delete("/auth/review/:isbn", (req, res) => {
 //   const isbn = req.params.isbn;
 //   const token = req.headers.authorization.split(" ")[1];
